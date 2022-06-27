@@ -1,0 +1,37 @@
+<script setup>
+import { spolupraca } from "../data/Spolupraca.vue";
+function getImageUrl(name) {
+  return new URL(`../assets/images/${name}`, import.meta.url).href;
+}
+</script>
+
+<template>
+  <section id="ikar" class="px-4 pt-20 -mt-20">
+    <h2 class="text-gray-500 text-xl font-bold mb-4">
+      Spolupráca s vydavateľstvvom IKAR
+    </h2>
+    <div class="wrapper w-full my-6" v-for="item in spolupraca" :key="item">
+      <div class="flex">
+        <img
+          :src="getImageUrl(item.image)"
+          :alt="item.title"
+          class="w-24 object-contain mr-4"
+        />
+        <div class="text-wrapper">
+          <h2 class="text-md font-bold">{{ item.title }}</h2>
+          <p class="text-gray-500 text-sm mt-2">{{ item.authors }}</p>
+          <p class="text-gray-500 text-sm mb-2">{{ item.vydavatelstvo }}</p>
+          <a
+            :href="item.link"
+            target="_blank"
+            class="border border-gray-500 py-1 px-5"
+          >
+            <button class="btn">
+              <span class="text-sm text-gray-500">viac</span>
+            </button>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+</template>

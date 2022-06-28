@@ -39,8 +39,9 @@ var info = ref(false);
           cítiace a súcitiace. A verím, že toto spojenie prispeje k tomu aby náš
           svet bol krajší.
         </p>
+
         <div class="flex justify-center">
-          <a href="#" class="text-white border-white border py-0.5 px-2 mt-5"
+          <a href="https://www.luxusnakniznica.sk/sen-menom-laska" class="text-white border-white border py-0.5 px-2 mt-5" target="_blank" rel="noopener nofollow"
             >viac
           </a>
         </div>

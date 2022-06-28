@@ -42,6 +42,7 @@
         ten správny vietor do plachiet. Čo viac si&nbsp;možno priať? Azda už len to,
         aby to pokračovalo...
       </p>
+      <p class="text-sm text-gray-500 mt-4 text-end pr-4" >Kamarát Ľudo</p>
     </div>
   </section>
 </template>

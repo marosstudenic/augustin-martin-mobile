@@ -35,7 +35,7 @@ var info = ref(false);
         </p>
 
         <p class="text-center text-white text-sm">
-          Ja verím, že jeden z najkrajších citov je láska. Robí z ná bytosti
+          Ja verím, že jeden z najkrajších citov je láska. Robí z nás bytosti
           cítiace a súcitiace. A verím, že toto spojenie prispeje k tomu aby náš
           svet bol krajší.
         </p>

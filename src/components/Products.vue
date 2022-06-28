@@ -28,7 +28,7 @@
 
     <router-link to="/produkt/listy/0" class="mx-2">
       <div class="item mx-2 first-of-type:ml-0 last-of-type:mr-0">
-        <h3 class="text-gray-500 mb-2 font-bold tracking-wide">
+        <h3 class="text-gray-500 mb-2 font-medium tracking-wide">
           Grafické listy
         </h3>
         <img
@@ -41,7 +41,7 @@
 
     <router-link to="/produkt/limitovane/0" class="ml-2">
       <div class="item mx-2 first-of-type:ml-0 last-of-type:mr-0">
-        <h3 class="text-gray-500 mb-2 font-bold tracking-wide">
+        <h3 class="text-gray-500 mb-2 font-medium tracking-wide">
           Limitované edície
         </h3>
         <img

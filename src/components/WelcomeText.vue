@@ -9,7 +9,7 @@
       src="https://www.youtube.com/embed/jjzlpjNv6FI?controls=0&rel=0&autoplay=0"
     ></iframe>
 
-    <div class="w-full p-4">
+    <div class="w-full pt-4">
       <h1 class="text-lg text-gray-500 my-2">Maľovať je vášeň</h1>
       <p class="text-sm text-gray-500">
         „Tvoriť a maľovať je vášeň. Vášeň najsilnejšia a nepremožiteľná, ktorá,

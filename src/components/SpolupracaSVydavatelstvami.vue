@@ -10,14 +10,14 @@ function getImageUrl(name) {
     <h2 class="text-gray-500 text-xl font-medium mb-4">
       Spolupráca s vydavateľstvom IKAR
     </h2>
-    <div class="wrapper w-full my-6" v-for="item in spolupraca" :key="item">
+    <div class="w-full my-6 h-32" v-for="item in spolupraca" :key="item">
       <div class="flex">
         <img
           :src="getImageUrl(item.image)"
           :alt="item.title"
           class="w-24 object-contain mr-4"
         />
-        <div class="text-wrapper">
+        <div class="">
           <h2 class="text-md font-medium">{{ item.title }}</h2>
           <p class="text-gray-500 text-sm my-1">{{ item.authors }}</p>
           <p class="text-gray-500 text-sm mb-2">{{ item.vydavatelstvo }}</p>

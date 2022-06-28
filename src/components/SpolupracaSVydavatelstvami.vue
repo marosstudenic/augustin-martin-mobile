@@ -6,9 +6,9 @@ function getImageUrl(name) {
 </script>
 
 <template>
-  <section id="ikar" class="px-4 pt-20 -mt-20">
+  <section id="ikar" class="px-4 mt-20 scroll-mt-20">
     <h2 class="text-gray-500 text-xl font-bold mb-4">
-      Spolupráca s vydavateľstvvom IKAR
+      Spolupráca s vydavateľstvom IKAR
     </h2>
     <div class="wrapper w-full my-6" v-for="item in spolupraca" :key="item">
       <div class="flex">
@@ -19,7 +19,7 @@ function getImageUrl(name) {
         />
         <div class="text-wrapper">
           <h2 class="text-md font-bold">{{ item.title }}</h2>
-          <p class="text-gray-500 text-sm mt-2">{{ item.authors }}</p>
+          <p class="text-gray-500 text-sm my-1">{{ item.authors }}</p>
           <p class="text-gray-500 text-sm mb-2">{{ item.vydavatelstvo }}</p>
           <a
             :href="item.link"

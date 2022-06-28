@@ -28,7 +28,7 @@ export const spolupraca = ref([
     authors: "Ľudovít Petránsky",
     vydavatelstvo: "Vydavateľstvo IKAR",
     image: "spoluprace/zrkadlo_duse.jpg",
-    link: "https://www.luxusnakniznica.sk",
+    link: "https://www.luxusnakniznica.sk/knihy/martin-augustin-zrkadlo-duse",
   },
 ]);
 </script>

@@ -1,24 +1,25 @@
 <script setup>
-import { products } from "@/data/Products.vue";
-import { ref, computed, watch } from "vue";
-import { useRoute } from "vue-router";
+import {products} from "@/data/Products.vue";
+import {ref, computed, watch} from "vue";
+import {useRoute} from "vue-router";
 
 function getImageUrl(name) {
   return new URL(`../assets/images/${name}`, import.meta.url).href;
 }
+
 const route = useRoute();
 
 var type = ref(route.params.type);
 var id = ref(route.params.id);
 
 watch(
-  () => route.params.type,
-  () => (type.value = route.params.type)
+    () => route.params.type,
+    () => (type.value = route.params.type)
 );
 
 watch(
-  () => route.params.id,
-  () => (id.value = route.params.id)
+    () => route.params.id,
+    () => (id.value = route.params.id)
 );
 
 var productList = computed(() => {
@@ -44,20 +45,13 @@ var product = computed(() => {
   return productList.value.items[id.value % productList.value.items.length];
 });
 
-var prev_link = computed(() => {
-  if (id.value === 0) {
-    return null;
-  } else {
-    return id.value - 1;
-  }
-});
 
 var next_link = computed(() => {
-  if (id.value >= productList.value.items.length - 1) {
-    return null;
-  } else {
-    return parseInt(id.value) + 1;
+  var new_id = id.value + 1;
+  if (new_id >= productList.value.items.length) {
+    new_id = 0;
   }
+  return new_id
 });
 </script>
 
@@ -67,13 +61,13 @@ var next_link = computed(() => {
       <div class="flex justify-between mt-2 mb-1">
         <router-link to="/#products" class="flex align-middle">
           <svg
-            class="h-10 py-2"
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 24 24"
-            fill="#6B7280"
+              class="h-10 py-2"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="#6B7280"
           >
             <path
-              d="M13.83 19a1 1 0 0 1-.78-.37l-4.83-6a1 1 0 0 1 0-1.27l5-6a1 1 0 0 1 1.54 1.28L10.29 12l4.32 5.36a1 1 0 0 1-.78 1.64z"
+                d="M13.83 19a1 1 0 0 1-.78-.37l-4.83-6a1 1 0 0 1 0-1.27l5-6a1 1 0 0 1 1.54 1.28L10.29 12l4.32 5.36a1 1 0 0 1-.78 1.64z"
             />
           </svg>
           <div class="flex justify-center flex-col">
@@ -90,19 +84,19 @@ var next_link = computed(() => {
         </router-link>
 
         <router-link
-          v-if="next_link != null"
-          :to="'/produkt/' + type + '/' + next_link"
-          class="text-sm text-gray-500 my-auto"
-          >nasledujúci
+            v-if="productList.items.length > 1"
+            :to="'/produkt/' + type + '/' + next_link"
+            class="text-sm text-gray-500 my-auto"
+        >nasledujúci
         </router-link>
       </div>
 
       <div class="flex flex-wrap justify-between">
         <div class="w-full">
           <img
-            class="w-full max-h-84 object-cover"
-            :src="getImageUrl(product.image)"
-            :alt="product.title"
+              class="w-full max-h-84 object-cover"
+              :src="getImageUrl(product.image)"
+              :alt="product.title"
           />
         </div>
         <div class="w-full mt-4">
@@ -122,9 +116,9 @@ var next_link = computed(() => {
 
           <div class="description">
             <p
-              class="text-gray-500 my-1"
-              v-for="(description, index) in product.descriptions"
-              :key="index"
+                class="text-gray-500 my-1"
+                v-for="(description, index) in product.descriptions"
+                :key="index"
             >
               {{ description }}
             </p>
@@ -136,9 +130,9 @@ var next_link = computed(() => {
           </p>
 
           <a
-            href="mailto:vena@nextra.sk"
-            class="border py-1 px-3 border-gray-500 text-gray-500"
-            >kontaktovať</a
+              href="mailto:vena@nextra.sk"
+              class="border py-1 px-3 border-gray-500 text-gray-500"
+          >kontaktovať</a
           >
           <!--          <p class="text-gray-500 text-sm">{{ photo.date }}</p>-->
           <!--          <p class="text-gray-500 text-sm">{{ photo.location }}</p>-->

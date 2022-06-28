@@ -4,7 +4,7 @@ var info = ref(false);
 </script>
 
 <template>
-  <section id="novinky" class="w-full p-4 pt-20 -mt-20">
+  <section id="novinky" class="w-full px-4 mt-20 scroll-mt-20">
     <div class="flex justify-between mb-2">
       <h2 class="text-lg text-gray-500">Novinky</h2>
       <div class="wrapper flex justify-end flex-col cursor-pointer">

@@ -1,7 +1,7 @@
 <script></script>
 
 <template>
-  <section id="welcome-text" class="w-full p-4 mt-8">
+  <section id="welcome-text" class="w-full p-4 pt-20 -mt-10">
     <iframe
       id="player"
       type="text/html"

@@ -2,7 +2,7 @@
 <template>
   <section
     id="products"
-    class="flex w-full overflow-x-scroll px-4 pt-20 -mt-20 no-scrollbar"
+    class="flex w-full overflow-x-scroll px-4 no-scrollbar mt-20 scroll-mt-20"
   >
     <router-link to="/produkt/publikacie/0" class="mr-2">
       <div class="item mx-2 first-of-type:ml-0 last-of-type:mr-0">

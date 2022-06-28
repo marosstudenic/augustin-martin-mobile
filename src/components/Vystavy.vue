@@ -25,16 +25,15 @@ const accordeon_text_spolocne = computed(() => {
 <template>
   <section
     id="samostatne-vystavy"
-    class="px-4 accordion accordion-flush pt-16 -mt-16"
+    class="px-4 accordion accordion-flush mt-20 scroll-mt-20"
   >
     <div class="flex justify-between">
       <h2 class="text-gray-500 font-semibold text-xl mt-4">
         Samostatné výstavy
       </h2>
-      <div class="btn flex justify-end flex-col">
+      <div class="flex justify-end flex-col">
         <h3
           class="text-gray-500 text-sm align-bottom"
-          type="button"
           data-bs-toggle="collapse"
           data-bs-target="#hidden-samostatne"
           aria-expanded="false"
@@ -82,13 +81,12 @@ const accordeon_text_spolocne = computed(() => {
       </div>
     </div>
   </section>
-  <section id="spolocne-vystavy" class="px-4 accordion accordion-flush mt-6">
+  <section id="spolocne-vystavy" class="px-4 accordion accordion-flush mt-20 scroll-mt-20">
     <div class="flex justify-between">
       <h2 class="text-gray-500 font-semibold text-xl mt-4">Spoločné výstavy</h2>
-      <div class="btn flex justify-end flex-col">
+      <div class="flex justify-end flex-col">
         <h3
           class="text-gray-500 text-sm align-bottom"
-          type="button"
           data-bs-toggle="collapse"
           data-bs-target="#hidden-spolocne"
           @click="spolocne_toggle"

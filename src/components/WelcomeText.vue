@@ -15,14 +15,15 @@
         „Tvoriť a&nbsp;maľovať je vášeň. Vášeň najsilnejšia a&nbsp;nepremožiteľná, ktorá,
         aj keď všetky túžby v&nbsp;tebe pohasli, nesmie pominúť. Všetkého sa môžeš
         zriecť, vo&nbsp;všetkom rezignovať, ale v&nbsp;umení nikdy.“ Slová Jana Zrzavého
-        rezonujú aj po mnohých rokoch. Nielen v obrazoch českého maliara, ale aj
-        v&nbsp;obrazoch, či myslení jeho duchovných nasledovníkov. Patrí k nim aj
-        Martin, pre ktorého je maľovanie vášňou. Každodennou, vytrvalou,
+        rezonujú aj&nbsp;po&nbsp;mnohých rokoch. Nielen v&nbsp;obrazoch českého maliara,
+        ale&nbsp;aj&nbsp;v&nbsp;obrazoch, či&nbsp;myslení jeho duchovných nasledovníkov.
+        Patrí k&nbsp;nim aj&nbsp;Martin,
+        pre ktorého je maľovanie vášňou. Každodennou, vytrvalou,
         spaľujúcou. Ale aj intímnou spoveďou s&nbsp;tichým vyznaním. A&nbsp;keď prídu
         pochybnosti, nikdy nevidieť rezignáciu. Naopak, jeho ženské tváre
         odzrkadľujú galériu našich vznešených predstáv i&nbsp;najtajnejších túžob. Sú
         blízke i&nbsp;vzdialené, rozmaľované i&nbsp;tajuplne sa vynárajúce z&nbsp;monochrómnej
-        hmly. Majú veľa chutí i&nbsp;vôní. Sú tam Madame de Pompadour aj Levočská
+        hmly. Majú veľa chutí i&nbsp;vôní. Sú tam Madame de Pompadour aj&nbsp;Levočská
         biela pani.
       </p>
       <p class="text-sm text-gray-500 my-4">
@@ -38,7 +39,7 @@
       <p class="text-sm text-gray-500">
         Ako je to teda s&nbsp;Martinom? Nie je to nič zložité. Vidí so srdcom, myslí
         s&nbsp;vášňou a&nbsp;žije, či stretáva sa s&nbsp;ľuďmi, ktorých prítomnosť mu prináša
-        ten správny vietor do plachiet. Čo viac si možno priať? Azda už len to,
+        ten správny vietor do plachiet. Čo viac si&nbsp;možno priať? Azda už len to,
         aby to pokračovalo...
       </p>
     </div>

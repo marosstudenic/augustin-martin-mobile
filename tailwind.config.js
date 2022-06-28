@@ -5,7 +5,8 @@ module.exports = {
     extend: {},
     fontFamily: {
       roboto: ['"Roboto"', "sans-serif"],
-      test: ["sans"], // Ensure fonts with spaces have " " surrounding it.
+      helvetica: ['"Helvetica"', "sans-serif"],
+      neue: ["Neue Haas Grotesk Display Pro", "sans-serif"],
     },
   },
   plugins: [require("tw-elements/dist/plugin")],

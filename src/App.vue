@@ -127,7 +127,7 @@ var menu_items = ref([
     </ul>
   </nav>
 
-  <RouterView class="z-0" :class="{ fixedPosition: !menuOpen }" />
+  <RouterView class="z-0 font-neue" :class="{ fixedPosition: !menuOpen }" />
   <!--  <footer>-->
   <!--    <a target="_blank" href="https://icons8.com/icon/32292/instagram"-->
   <!--    >Instagram</a-->

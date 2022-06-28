@@ -39,7 +39,7 @@ function increaseMalbaActiveIndex() {
           <img :src="getImageUrl(item.image)" :alt="item.title" />
           <h3 class="text-gray-500 font-bold mt-2">{{ item.title }}</h3>
 
-          <div class="flex justify-between items-center mt-2">
+          <div class="flex justify-between items-center">
             <p class="text-gray-500 text-sm">
               {{ item.description }} | {{ item.date }}
             </p>
@@ -81,7 +81,7 @@ function increaseMalbaActiveIndex() {
           <img :src="getImageUrl(item.image)" :alt="item.title" />
           <h3 class="text-gray-500 font-bold mt-2">{{ item.title }}</h3>
 
-          <div class="flex justify-between items-center mt-2">
+          <div class="flex justify-between items-center">
             <p class="text-gray-500 text-sm">
               {{ item.description }} | {{ item.date }}
             </p>

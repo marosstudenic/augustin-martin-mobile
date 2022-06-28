@@ -26,9 +26,11 @@ function getImageUrl(name) {
             target="_blank"
             class="border border-gray-500 py-1 px-5"
           >
+            <a href="https://www.luxusnakniznica.sk/sen-menom-laska" target="_blank" rel="nofollow noopener">
             <button class="btn">
               <span class="text-sm text-gray-500">viac</span>
             </button>
+            </a>
           </a>
         </div>
       </div>

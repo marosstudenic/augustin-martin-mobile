@@ -41,7 +41,7 @@ var info = ref(false);
         </p>
         <div class="flex justify-center">
           <a href="#" class="text-white border-white border py-0.5 px-2 mt-5"
-            >Viac
+            >viac
           </a>
         </div>
       </div>

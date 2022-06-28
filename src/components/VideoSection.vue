@@ -55,10 +55,10 @@ function decreaseVideoActiveIndex() {
     </div>
     <div class="flex justify-between">
       <p @click="decreaseVideoActiveIndex" class="text-sm text-gray-500">
-        Predchádzajúca
+        predchádzajúca
       </p>
       <p @click="increaseVideoActiveIndex" class="text-sm text-gray-500">
-        Nasledujúca
+        nasledujúca
       </p>
     </div>
   </section>

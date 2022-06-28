@@ -20,7 +20,7 @@ export const spolupraca = ref([
     title: "Zrkadielka ku knihe Stále ťa mať",
     authors: "Kamil Peteraj",
     vydavatelstvo: "Vydavateľstvo IKAR",
-    image: "spoluprace/zrkadielka_k_knihe_stale_ta_mst.jpg",
+    image: "spoluprace/zrkadielka_ku_knihe.jpg",
     link: "https://www.luxusnakniznica.sk",
   },
   {

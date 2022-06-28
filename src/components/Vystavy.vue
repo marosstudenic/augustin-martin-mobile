@@ -25,7 +25,7 @@ const accordeon_text_spolocne = computed(() => {
 <template>
   <section
     id="samostatne-vystavy"
-    class="px-4 accordion accordion-flush mt-20 scroll-mt-20"
+    class="px-4 accordion accordion-flush pt-20"
   >
     <div class="flex justify-between">
       <h2 class="text-gray-500 font-medium text-xl mt-4">

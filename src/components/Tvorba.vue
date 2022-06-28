@@ -26,7 +26,7 @@ function increaseMalbaActiveIndex() {
 </script>
 
 <template>
-  <section id="tvorba" class="px-4 mt-20 scroll-mt-20">
+  <section id="tvorba" class="px-4 pt-20">
     <div class="kresba">
       <h2 class="text-gray-500 text-xl font-medium mb-4">Kresba</h2>
       <div class="items w-full overflow-hidden">

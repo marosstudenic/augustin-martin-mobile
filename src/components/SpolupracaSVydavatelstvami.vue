@@ -6,7 +6,7 @@ function getImageUrl(name) {
 </script>
 
 <template>
-  <section id="ikar" class="px-4 mt-20 scroll-mt-20">
+  <section id="ikar" class="px-4 pt-20">
     <h2 class="text-gray-500 text-xl font-medium mb-4">
       Spolupráca s vydavateľstvom IKAR
     </h2>

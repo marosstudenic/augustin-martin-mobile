@@ -2,7 +2,7 @@
 import { studium, ocenenia } from "../data/Zivotopis.vue";
 </script>
 <template>
-  <section id="zivotopis" class="px-4 mt-20 scroll-mt-20">
+  <section id="zivotopis" class="px-4 pt-20">
     <h2 class="text-gray-500 font-medium text-xl mt-4">Životopis</h2>
     <img
       src="@/assets/images/augustin-portret.jpg"

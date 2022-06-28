@@ -9,12 +9,12 @@ export const seasons = ref([
       "blízke.",
     items: [
       {
-        filename: "sen_sv_sebastiana.jpg",
+        filename: "obdobie1dielo1.png",
         title:
           "Sen Sv. Šebastiána a horiaci ker kresba, čierny prírodný uhol, koláž, 1988",
       },
       {
-        filename: "dievca_z_pigalle.jpg",
+        filename: "obdobie1dielo2.png",
         title: "Dievča z Pigalle čierny prírodný uhol, 1990",
       },
     ],
@@ -24,19 +24,19 @@ export const seasons = ref([
     description: "Fascinuje ma keď farba prichádza na papier prirodzene.",
     items: [
       {
-        filename: "fastnacht_1996.jpg",
+        filename: "obdobie2d1.png",
         title: "Fastnacht in Helvetia ceruzka, pastel, 1996",
       },
       {
-        filename: "fastnacht_2004.jpg",
+        filename: "obdobie2d2.png",
         title: "Fastnacht in Helvetia ceruzka, pastel, 2004–2005",
       },
       {
-        filename: "la_dolce_vita_2003.jpg",
+        filename: "obdobie2d3.png",
         title: "La Dolce Vita ceruzka, pastel, 2003",
       },
       {
-        filename: "bez_nazvu_2000.jpg",
+        filename: "obdobie2d4.png",
         title: "Bez názvu ceruzka, pastel, koláž, 2000",
       },
     ],
@@ -46,21 +46,21 @@ export const seasons = ref([
     description: "Myslím si, že pekné prostredie nás zušľachťuje a robí",
     items: [
       {
-        filename: "parizanka_pastel.jpg",
+        filename: "obdobie3d1.png",
         title: "Parížanka pastel, ceruzka, koláž na japonskom papieri, 2005",
       },
       {
-        filename: "ruzovy_sen_parizanky_pastel.jpg",
+        filename: "obdobie3d2.png",
         title:
           "Ružový sen Parížanky pastel, ceruzka, koláž na japonskom papieri, 2005",
       },
       {
-        filename: "parizanka_ticha_posta_2005.jpg",
+        filename: "obdobie3d3.png",
         title: "Parížanka, tichá pošta pastel, ceruzka, koláž, 2005",
       },
       {
-        filename: "parizanka_ticha_posta_pastel.jpg",
-        title: "parizanka_ticha_posta_pastel.jpg",
+        filename: "obdobie3d4.png",
+        title: "parizanka_ticha_posta_pastel.png",
       },
     ],
   },
@@ -70,12 +70,12 @@ export const seasons = ref([
       "Vieru vnímam v ustavičnom pohybe a formovanú mojimi skúsenosťami a zážitkami.  Rozhodne to nie je nemenná dogma. Viera je nádej, pocit, zážitok, smútok i radosť. Je  to nedotknuteľná časť môjho ja.",
     items: [
       {
-        filename: "svata_veronika_pastel_2011.jpg",
+        filename: "obdobie4d1.png",
         title:
           "Svätá Veronika pastel, ceruzka, koláž na japonskom papieri, 2011",
       },
       {
-        filename: "sv_magdalena_ceruzka_2012.jpg",
+        filename: "obdobie4d2.png",
         title:
           "Sv. Magdaléna ceruzka, pastel, koláž na japonskom papieri, 2012",
       },
@@ -126,19 +126,19 @@ export const seasons = ref([
     items: [
       {
         title: "Horizonty, akryl na plátne, 2016",
-        filename: "horizonty_akryl_na_platne.jpg",
+        filename: "obdobie6d1.png",
       },
       {
         title: "Z hĺbky duše, akryl na plátne, 2018",
-        filename: "z_hlbky_duse.jpg",
+        filename: "obdobie6d2.png",
       },
       {
         title: "Dotyk - anjel strážny, akryl, olej na plátne, 2019",
-        filename: "dotyk.jpg",
+        filename: "obdobie6d3.png",
       },
       {
         title: "Z jedného hniezda, akryl na plátne, 2019",
-        filename: "z_jedneho_miesta.jpg",
+        filename: "obdobie6d4.png",
       },
     ],
   },
@@ -182,27 +182,27 @@ export const seasons = ref([
     items: [
       {
         title: "Anjel strážny ceruzka, pastel, zlatá fólia, 2020",
-        filename: "anjel_strazny_ceruzka.jpg",
+        filename: "obdobie8d1.png",
       },
       {
         title: "Splynutia ceruzka, pastel, zlatá fólia, 2021",
-        filename: "splynutia_ceruzka.jpg",
+        filename: "obdobie8d2.png",
       },
       {
         title: "Záhrada páva ceruzka, pastel, koláž, zlatá fólia, 2019",
-        filename: "zahrada_pava_ceruzka.jpg",
+        filename: "obdobie8d3.png",
       },
       {
         title: "Snívanie nebíčka ceruzka, pastel, koláž, 2019",
-        filename: "snivanie_nebicka_ceruzka.jpg",
+        filename: "obdobie8d4.png",
       },
       {
         title: "Modlitba za zdravie ceruzka, pastel, koláž, zlatá fólia, 2020",
-        filename: "modlitba_na_zdravie_ceruzka.jpg",
+        filename: "obdobie8d5.png",
       },
       {
         title: "Zámocké hry II. ceruzka, pastel, koláž, zlatá fólia, 2019",
-        filename: "zamocke_hry_2.jpg",
+        filename: "obdobie8d6.png",
       },
     ],
   },

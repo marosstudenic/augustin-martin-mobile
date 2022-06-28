@@ -3,24 +3,24 @@ import { ref } from "vue";
 export const videos = ref([
   {
     type: "yotuube",
-    link: "http://www.youtube.com/embed/St63eT8PlPk",
+    link: "https://www.youtube.com/embed/St63eT8PlPk",
   },
   {
     type: "yotuube",
-    link: "http://www.youtube.com/embed/z9uVCpjJgv8",
+    link: "https://www.youtube.com/embed/z9uVCpjJgv8",
   },
   {
     type: "yotuube",
-    link: "http://www.youtube.com/embed/85qyGQwXlCk",
+    link: "https://www.youtube.com/embed/85qyGQwXlCk",
   },
   {
     type: "yotuube",
-    link: "http://www.youtube.com/embed/nMIJhZMCJNM",
+    link: "https://www.youtube.com/embed/nMIJhZMCJNM",
   },
 
   {
     type: "yotuube",
-    link: "http://www.youtube.com/embed/f9KTa1UA67M",
+    link: "https://www.youtube.com/embed/f9KTa1UA67M",
   },
   {
     type: "ta3",

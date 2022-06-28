@@ -37,7 +37,7 @@ function increaseMalbaActiveIndex() {
           :class="{ active: index === kresba_active_index }"
         >
           <img :src="getImageUrl(item.image)" :alt="item.title" />
-          <h3 class="text-gray-500 font-bold mt-2">{{ item.title }}</h3>
+          <h3 class="text-gray-500 font-medium mt-2">{{ item.title }}</h3>
 
           <div class="flex justify-between items-center">
             <p class="text-gray-500 text-sm">
@@ -79,7 +79,7 @@ function increaseMalbaActiveIndex() {
           :class="{ active: index === malba_active_index }"
         >
           <img :src="getImageUrl(item.image)" :alt="item.title" />
-          <h3 class="text-gray-500 font-bold mt-2">{{ item.title }}</h3>
+          <h3 class="text-gray-500 font-medium mt-2">{{ item.title }}</h3>
 
           <div class="flex justify-between items-center">
             <p class="text-gray-500 text-sm">
@@ -95,7 +95,7 @@ function increaseMalbaActiveIndex() {
         </div>
         <div class="placeholder">
           <img :src="getImageUrl(malba[0].image)" :alt="malba[0].title" />
-          <h3 class="text-gray-500 font-bold mt-2">{{ malba[0].title }}</h3>
+          <h3 class="text-gray-500 font-medium mt-2">{{ malba[0].title }}</h3>
 
           <div class="flex justify-between items-center mt-2">
             <p class="text-gray-500 text-sm">

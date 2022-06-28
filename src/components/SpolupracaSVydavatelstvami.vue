@@ -18,7 +18,7 @@ function getImageUrl(name) {
           class="w-24 object-contain mr-4"
         />
         <div class="text-wrapper">
-          <h2 class="text-md font-bold">{{ item.title }}</h2>
+          <h2 class="text-md font-medium">{{ item.title }}</h2>
           <p class="text-gray-500 text-sm my-1">{{ item.authors }}</p>
           <p class="text-gray-500 text-sm mb-2">{{ item.vydavatelstvo }}</p>
           <a

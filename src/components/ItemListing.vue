@@ -9,7 +9,7 @@ function getImageUrl(name) {
 
 <template>
   <div class="wrapper my-8">
-    <h1 class="headline text-gray-500 mb-2 font-bold">{{ headline }}</h1>
+    <h1 class="headline text-gray-500 mb-2 font-medium">{{ headline }}</h1>
     <div class="slider flex overflow-x-scroll no-scrollbar">
       <img
         class="h-40 object-contain mx-2 first-of-type:ml-0 last-of-type:mr-0"

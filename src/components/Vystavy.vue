@@ -50,7 +50,7 @@ const accordeon_text_spolocne = computed(() => {
       v-for="(item, index) in samostatne_vystavy.slice(0, 4)"
       :key="index"
     >
-      <h3 class="text-gray-500 font-bold">{{ item.date }}</h3>
+      <h3 class="text-gray-500 font-medium">{{ item.date }}</h3>
       <p
         class="text-gray-500 text-sm py-2"
         v-for="location in item.locations"
@@ -70,7 +70,7 @@ const accordeon_text_spolocne = computed(() => {
         v-for="(item, index) in samostatne_vystavy.slice(4)"
         :key="index"
       >
-        <h3 class="text-gray-500 font-bold">{{ item.date }}</h3>
+        <h3 class="text-gray-500 font-mediium">{{ item.date }}</h3>
         <p
           class="text-gray-500 text-sm py-2"
           v-for="location in item.locations"
@@ -102,7 +102,7 @@ const accordeon_text_spolocne = computed(() => {
       v-for="(item, index) in spolocne_vystavy.slice(0, 4)"
       :key="index"
     >
-      <h3 class="text-gray-500 font-bold">{{ item.date }}</h3>
+      <h3 class="text-gray-500 font-medium">{{ item.date }}</h3>
       <p
         class="text-gray-500 text-sm"
         v-for="location in item.locations"
@@ -121,7 +121,7 @@ const accordeon_text_spolocne = computed(() => {
         v-for="(item, index) in spolocne_vystavy.slice(4)"
         :key="index"
       >
-        <h3 class="text-gray-500 font-bold">{{ item.date }}</h3>
+        <h3 class="text-gray-500 font-medium">{{ item.date }}</h3>
         <p
           class="text-gray-500 text-sm"
           v-for="location in item.locations"

@@ -6,7 +6,7 @@
       id="player"
       type="text/html"
       class="w-full h-60"
-      src="http://www.youtube.com/embed/jjzlpjNv6FI?enablejsapi=1&origin=augustinmartin.com&controls=0&rel=0&autoplay=0"
+      src="http://www.youtube.com/embed/jjzlpjNv6FI?controls=0&rel=0&autoplay=0"
     ></iframe>
 
     <div class="w-full p-4">

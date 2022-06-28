@@ -15,7 +15,7 @@ function getImageUrl(name) {
         <img
           :src="getImageUrl(item.image)"
           :alt="item.title"
-          class="w-24 object-contain mr-4 h-full object-center"
+          class="w-24 object-contain mr-4 h-full my-auto"
         />
         <div class="">
           <h2 class="text-md font-medium">{{ item.title }}</h2>

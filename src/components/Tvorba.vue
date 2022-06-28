@@ -47,7 +47,7 @@ function increaseMalbaActiveIndex() {
               class="text-gray-500 text-sm"
               @click="increaseKresbaActiveIndex"
             >
-              Nasledujúca
+              nasledujúca
             </button>
           </div>
         </div>
@@ -63,7 +63,7 @@ function increaseMalbaActiveIndex() {
               class="text-gray-500 text-sm"
               @click="increaseKresbaActiveIndex"
             >
-              Nasledujúca
+              nasledujúca
             </button>
           </div>
         </div>
@@ -89,7 +89,7 @@ function increaseMalbaActiveIndex() {
               class="text-gray-500 text-sm"
               @click="increaseMalbaActiveIndex"
             >
-              Nasledujúca
+              nasledujúca
             </button>
           </div>
         </div>
@@ -105,7 +105,7 @@ function increaseMalbaActiveIndex() {
               class="text-gray-500 text-sm"
               @click="increaseKresbaActiveIndex"
             >
-              Nasledujúca
+              nasledujúca
             </button>
           </div>
         </div>

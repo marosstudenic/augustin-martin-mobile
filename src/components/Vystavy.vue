@@ -15,11 +15,11 @@ function spolocne_toggle() {
 }
 
 const accordeon_text_samostatne = computed(() => {
-  return !samostatne_vystavy_toggle.value ? "Rozbaliť" : "Skryť";
+  return !samostatne_vystavy_toggle.value ? "rozbaliť" : "skryť";
 });
 
 const accordeon_text_spolocne = computed(() => {
-  return !spolocne_vystavy_toggle.value ? "Rozbaliť" : "Skryť";
+  return !spolocne_vystavy_toggle.value ? "rozbaliť" : "skryť";
 });
 </script>
 <template>

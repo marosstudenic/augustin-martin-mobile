@@ -20,7 +20,7 @@ function decreaseVideoActiveIndex() {
 </script>
 <template>
   <section id="video" class="px-4 mt-20 scroll-mt-20">
-    <h2 class="text-gray-500 font-bold mb-4 text-xl">Video</h2>
+    <h2 class="text-gray-500 font-medium mb-4 text-xl">Video</h2>
     <div class="items h-56 mb-4 overflow-hidden">
       <div
         class="video-container item w-full"

@@ -28,7 +28,7 @@ function increaseMalbaActiveIndex() {
 <template>
   <section id="tvorba" class="px-4 mt-20 scroll-mt-20">
     <div class="kresba">
-      <h2 class="text-gray-500 text-xl font-bold mb-4">Kresba</h2>
+      <h2 class="text-gray-500 text-xl font-medium mb-4">Kresba</h2>
       <div class="items w-full overflow-hidden">
         <div
           class="item"
@@ -53,7 +53,7 @@ function increaseMalbaActiveIndex() {
         </div>
         <div class="placeholder">
           <img :src="getImageUrl(kresba[0].image)" :alt="kresba[0].title" />
-          <h3 class="text-gray-500 font-bold mt-2">{{ kresba[0].title }}</h3>
+          <h3 class="text-gray-500 font-medium mt-2">{{ kresba[0].title }}</h3>
 
           <div class="flex justify-between items-center mt-2">
             <p class="text-gray-500 text-sm">
@@ -70,7 +70,7 @@ function increaseMalbaActiveIndex() {
       </div>
     </div>
     <div class="malba mt-10">
-      <h2 class="text-gray-500 text-xl font-bold mb-2">Maľba</h2>
+      <h2 class="text-gray-500 text-xl font-medium mb-2">Maľba</h2>
       <div class="items overflow-hidden">
         <div
           class="item"

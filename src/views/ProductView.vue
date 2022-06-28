@@ -56,7 +56,7 @@ var next_link = computed(() => {
 </script>
 
 <template>
-  <main class="font-pragmatica h-full">
+  <main class="h-full">
     <div class="container mx-auto px-4 flex flex-col pb-4">
       <div class="flex justify-between mt-2 mb-1">
         <router-link to="/#products" class="flex align-middle">

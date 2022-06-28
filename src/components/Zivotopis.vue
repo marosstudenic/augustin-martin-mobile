@@ -3,7 +3,7 @@ import { studium, ocenenia } from "../data/Zivotopis.vue";
 </script>
 <template>
   <section id="zivotopis" class="px-4 mt-20 scroll-mt-20">
-    <h2 class="text-gray-500 font-semibold text-xl mt-4">Životopis</h2>
+    <h2 class="text-gray-500 font-medium text-xl mt-4">Životopis</h2>
     <img
       src="@/assets/images/augustin-portret.jpg"
       alt=""
@@ -13,14 +13,14 @@ import { studium, ocenenia } from "../data/Zivotopis.vue";
     <h3 class="text-gray-500">
       Martin Augustín sa narodil 25. 11. 1968 v Bratislave
     </h3>
-    <h2 class="text-gray-500 font-semibold text-xl mt-10">Štúdium</h2>
+    <h2 class="text-gray-500 font-medium text-xl mt-10">Štúdium</h2>
     <div class="item my-2" v-for="(item, index) in studium" :key="index">
-      <h3 class="text-gray-500 font-bold">{{ item.date }}</h3>
+      <h3 class="text-gray-500 font-medium">{{ item.date }}</h3>
       <p class="text-gray-500 text-sm">{{ item.text }}</p>
     </div>
-    <h2 class="text-gray-500 font-semibold text-xl mt-10">Ocenenia</h2>
+    <h2 class="text-gray-500 font-medium text-xl mt-10">Ocenenia</h2>
     <div class="item my-2" v-for="(item, index) in ocenenia" :key="index">
-      <h3 class="text-gray-500 font-bold">{{ item.date }}</h3>
+      <h3 class="text-gray-500 font-medium">{{ item.date }}</h3>
       <p class="text-gray-500 text-sm">{{ item.text }}</p>
     </div>
   </section>

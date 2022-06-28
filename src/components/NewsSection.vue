@@ -6,7 +6,7 @@ var info = ref(false);
 <template>
   <section id="novinky" class="w-full px-4 mt-20 scroll-mt-20">
     <div class="flex justify-between mb-2">
-      <h2 class="text-lg text-gray-500">Novinky</h2>
+      <h2 class="text-lg text-gray-500 font-medium">Novinky</h2>
       <div class="wrapper flex justify-end flex-col cursor-pointer">
         <p class="text-sm text-gray-500" @click="info = !info">rozbaliť</p>
       </div>

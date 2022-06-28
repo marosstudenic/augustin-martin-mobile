@@ -29,7 +29,7 @@ function getImageUrl(name) {
 </script>
 
 <template>
-  <main class="font-pragmatica h-full">
+  <main class="h-full">
     <div
       class="container mx-auto px-4 flex flex-col justify-center h-[calc(100vh-4rem)] relative"
     >

@@ -14,7 +14,7 @@ import Kontakt from "../components/Kontakt.vue";
 </script>
 
 <template>
-  <main class="font-pragmatica">
+  <main class="font-roboto">
     <WelcomeImage />
     <WelcomeText />
     <NewSection />

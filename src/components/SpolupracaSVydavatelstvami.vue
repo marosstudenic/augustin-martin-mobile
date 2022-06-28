@@ -7,7 +7,7 @@ function getImageUrl(name) {
 
 <template>
   <section id="ikar" class="px-4 mt-20 scroll-mt-20">
-    <h2 class="text-gray-500 text-xl font-bold mb-4">
+    <h2 class="text-gray-500 text-xl font-medium mb-4">
       Spolupráca s vydavateľstvom IKAR
     </h2>
     <div class="wrapper w-full my-6" v-for="item in spolupraca" :key="item">

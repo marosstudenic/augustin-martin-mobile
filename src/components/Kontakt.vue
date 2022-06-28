@@ -1,7 +1,7 @@
 <script></script>
 <template>
   <section id="kontakt" class="px-4 mt-20 scroll-mt-20 pb-6">
-    <h2 class="text-xl font-bold text-gray-500">Kontakt</h2>
+    <h2 class="text-xl font-medium text-gray-500">Kontakt</h2>
     <p class="font-bold text-gray-500">Galéria u Anjela</p>
     <p class="text-gray-500">Kežmarok</p>
     <p>

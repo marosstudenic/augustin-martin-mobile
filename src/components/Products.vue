@@ -6,7 +6,7 @@
   >
     <router-link to="/produkt/publikacie/0" class="mr-2">
       <div class="item mx-2 first-of-type:ml-0 last-of-type:mr-0">
-        <h3 class="text-gray-500 mb-2 font-bold tracking-wide">Publikácie</h3>
+        <h3 class="text-gray-500 mb-2 font-medium tracking-wide">Publikácie</h3>
         <img
           src="@/assets/images/spoluprace/brozovanaPublikacia_obrazyTextySentencie.jpg"
           alt="Publikacie"
@@ -17,7 +17,7 @@
 
     <router-link to="/produkt/textilie/0" class="mx-2">
       <div class="item mx-2 first-of-type:ml-0 last-of-type:mr-0">
-        <h3 class="text-gray-500 mb-2 font-bold tracking-wide">Textílie</h3>
+        <h3 class="text-gray-500 mb-2 font-medium tracking-wide">Textílie</h3>
         <img
           src="@/assets/images/produkty/hodvabnaSatka.jpg"
           alt="Textilie vzacne"

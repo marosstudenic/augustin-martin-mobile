@@ -2,10 +2,11 @@ import { createRouter, createWebHistory } from "vue-router";
 import GalleryDetail from "../views/GalleryDetail.vue";
 import ProductView from "../views/ProductView.vue";
 import HomeView from "../views/HomeView.vue";
+import CasPlynieDetail from "../views/CasPlynieDetail.vue";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
-  scrollBehavior(to, from, savedPosition) {
+  scrollBehavior(to) {
     if (to.hash) {
       return {
         el: to.hash,
@@ -27,6 +28,12 @@ const router = createRouter({
       path: "/produkt/:type/:id",
       name: "product",
       component: ProductView,
+    },
+
+    {
+      path: "/detail/:filename",
+      name: "casplynie",
+      component: CasPlynieDetail,
     },
   ],
 });

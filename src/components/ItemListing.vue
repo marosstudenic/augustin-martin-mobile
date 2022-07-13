@@ -11,13 +11,20 @@ function getImageUrl(name) {
   <div class="wrapper my-8">
     <h1 class="headline text-gray-500 mb-2 font-medium">{{ headline }}</h1>
     <div class="slider flex overflow-x-scroll no-scrollbar">
-      <img
-        class="h-40 object-contain mx-2 first-of-type:ml-0 last-of-type:mr-0"
-        v-for="(item, index) in items"
-        :src="getImageUrl(item.filename)"
-        :key="index"
-        :alt="item.filename"
-      />
+      <div class="container flex w-auto">
+        <router-link
+          :to="'/detail/' + item.filename.split('.')[0]"
+          v-for="(item, index) in items"
+          class="h-40 object-contain mx-2 first-of-type:ml-0 last-of-type:mr-0"
+          :key="index"
+        >
+          <img
+            class="h-40 object-contain max-w-[250px]"
+            :src="getImageUrl(item.filename)"
+            :alt="item.filename"
+          />
+        </router-link>
+      </div>
     </div>
     <p class="description text-gray-500 text-sm mt-2">{{ description }}</p>
   </div>

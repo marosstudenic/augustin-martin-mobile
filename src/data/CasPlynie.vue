@@ -10,12 +10,13 @@ export const seasons = ref([
     items: [
       {
         filename: "obdobie1dielo1.png",
-        title:
-          "Sen Sv. Šebastiána a horiaci ker kresba, čierny prírodný uhol, koláž, 1988",
+        title: "Sen Sv. Šebastiána a horiaci ker ",
+        description: "kresba, čierny prírodný uhol, koláž, 1988",
       },
       {
         filename: "obdobie1dielo2.png",
-        title: "Dievča z Pigalle čierny prírodný uhol, 1990",
+        title: "Dievča z Pigalle ",
+        description: "čierny prírodný uhol, 1990",
       },
     ],
   },
@@ -25,19 +26,23 @@ export const seasons = ref([
     items: [
       {
         filename: "obdobie2d1.png",
-        title: "Fastnacht in Helvetia ceruzka, pastel, 1996",
+        title: "Fastnacht in Helvetia ",
+        description: "ceruzka, pastel, 1996",
       },
       {
         filename: "obdobie2d2.png",
-        title: "Fastnacht in Helvetia ceruzka, pastel, 2004–2005",
+        title: "Fastnacht in Helvetia",
+        description: "ceruzka, pastel, 2004–2005",
       },
       {
         filename: "obdobie2d3.png",
-        title: "La Dolce Vita ceruzka, pastel, 2003",
+        title: "La Dolce Vita",
+        description: "ceruzka, pastel, 2003",
       },
       {
         filename: "obdobie2d4.png",
-        title: "Bez názvu ceruzka, pastel, koláž, 2000",
+        title: "Bez názvu",
+        description: "ceruzka, pastel, koláž, 2000",
       },
     ],
   },
@@ -47,20 +52,18 @@ export const seasons = ref([
     items: [
       {
         filename: "obdobie3d1.png",
-        title: "Parížanka pastel, ceruzka, koláž na japonskom papieri, 2005",
+        title: "Parížanka",
+        description: " pastel, ceruzka, koláž na japonskom papieri, 2005",
       },
       {
         filename: "obdobie3d2.png",
-        title:
-          "Ružový sen Parížanky pastel, ceruzka, koláž na japonskom papieri, 2005",
+        title: "Ružový sen Parížanky",
+        description: " pastel, ceruzka, koláž na japonskom papieri, 2005",
       },
       {
         filename: "obdobie3d3.png",
-        title: "Parížanka, tichá pošta pastel, ceruzka, koláž, 2005",
-      },
-      {
-        filename: "obdobie3d4.png",
-        title: "parizanka_ticha_posta_pastel.png",
+        title: "Parížanka, tichá pošta",
+        description: " pastel, ceruzka, koláž, 2005",
       },
     ],
   },
@@ -71,19 +74,21 @@ export const seasons = ref([
     items: [
       {
         filename: "obdobie4d1.png",
-        title:
-          "Svätá Veronika pastel, ceruzka, koláž na japonskom papieri, 2011",
+        title: "Svätá Veronika",
+        description: " pastel, ceruzka, koláž na japonskom papieri, 2011",
       },
       {
         filename: "obdobie4d2.png",
-        title:
-          "Sv. Magdaléna ceruzka, pastel, koláž na japonskom papieri, 2012",
+        title: "Sv. Magdaléna",
+        description: " ceruzka, pastel, koláž na japonskom papieri, 2012",
       },
       {
         filename: "kostol_sedem.jpg",
         title:
-          "Pohľad do interiéru kostola Sedem - bolestnej Panny Márie v Bratislave, na pravej strane - Kristus, sedem sviatostí, ceruzka, pastel, koláž na japonskom papieri  nalepené na drevenej doske, 2009",
+          "Pohľad do interiéru kostola Sedem - bolestnej Panny Márie v Bratislave, na pravej strane - Kristus, sedem sviatostí",
         fotoby: "Ivan Karlík",
+        description:
+          "ceruzka, pastel, koláž na japonskom papieri  nalepené na drevenej doske, 2009",
       },
     ],
   },
@@ -94,28 +99,32 @@ export const seasons = ref([
     items: [
       {
         filename: "venovane_lutosti_ceruzka.jpg",
-        title:
-          "Venované ľútosti ceruzka, pastel, koláž s vpísaným textom Kamila Peteraja, 2010",
+        title: "Venované ľútosti",
+        description:
+          " ceruzka, pastel, koláž s vpísaným textom Kamila Peteraja, 2010",
       },
       {
         filename: "plazime_sa_navzajom_cez_svoje_duse.jpg",
-        title:
-          "Plazíme sa navzájom cez svoje duše... ceruzka, pastel, koláž s vpísaným textom Kamila Peteraja, 2010",
+        title: "Plazíme sa navzájom cez svoje duše...",
+        description:
+          "ceruzka, pastel, koláž s vpísaným textom Kamila Peteraja, 2010",
       },
       {
         filename: "xxx_ceruzka.jpg",
-        title:
-          "XXX... ceruzka, pastel, koláž s vpísaným textom Kamila Peteraja, 2010",
+        title: "XXX...",
+        description:
+          "ceruzka, pastel, koláž s vpísaným textom Kamila Peteraja, 2010",
       },
       {
         filename: "v_atelieri.jpg",
         title:
-          "V ateliéri na Novohradskej ulici s básnikom Kamilom Peterajom pri práci na novom obraze, XXX ceruzka, pastel, koláž s vpísaným textom Kamila Peteraja, 2013",
+          "V ateliéri na Novohradskej ulici s básnikom Kamilom Peterajom pri práci na novom obraze, XXX 2013",
       },
       {
         filename: "xxx_ceruzka_2013.jpg",
-        title:
-          "XXX ceruzka, pastel, koláž s vpísaným textom Kamila Peteraja, 2013",
+        title: "XXX",
+        description:
+          " ceruzka, pastel, koláž s vpísaným textom Kamila Peteraja, 2013",
       },
     ],
   },
@@ -125,20 +134,24 @@ export const seasons = ref([
       "Keď maľujem snažím sa o znázornenie harmónie medzi telesným a duchovným svetom.",
     items: [
       {
-        title: "Horizonty, akryl na plátne, 2016",
+        title: "Horizonty",
         filename: "obdobie6d1.png",
+        description: "akryl na plátne, 2016",
       },
       {
-        title: "Z hĺbky duše, akryl na plátne, 2018",
+        title: "Z hĺbky duše",
         filename: "obdobie6d2.png",
+        description: "akryl na plátne, 2018",
       },
       {
-        title: "Dotyk - anjel strážny, akryl, olej na plátne, 2019",
+        title: "Dotyk - anjel strážny",
         filename: "obdobie6d3.png",
+        description: "akryl, olej na plátne, 2019",
       },
       {
-        title: "Z jedného hniezda, akryl na plátne, 2019",
+        title: "Z jedného hniezda",
         filename: "obdobie6d4.png",
+        description: "akryl na plátne, 2019",
       },
     ],
   },
@@ -148,30 +161,36 @@ export const seasons = ref([
       "Pochopil som, že je potrebné byť otvorený a nechať sa inšpirovať všetkým, čo je človeku blízke.",
     items: [
       {
-        title:
-          "Nečakám ťa na kolenách, akryl, olej na lipovom dreve, 2020, text na prednej strane do obrazu vpísal básnik Kamil Peteraj",
+        title: "Nečakám ťa na kolenách",
         filename: "necakam_ta_na_kolenach_1.jpg",
+        description:
+          "akryl, olej na lipovom dreve, 2020, text na prednej strane do obrazu vpísal básnik Kamil Peteraj",
       },
       {
-        title:
-          "Nečakám ťa na kolenách, akryl, olej na lipovom dreve, 2020, text na prednej strane do obrazu vpísal básnik Kamil Peteraj",
+        title: "Nečakám ťa na kolenách",
         filename: "necakam_ta_na_kolenach_2.jpg",
+        description:
+          "akryl, olej na lipovom dreve, 2020, text na prednej strane do obrazu vpísal básnik Kamil Peteraj",
       },
       {
-        title: "Pod krídlami III., akryl, olej na lipovom dreve, 2020",
+        title: "Pod krídlami III.",
         filename: "pod_kridlami_3.jpg",
+        description: "akryl, olej na lipovom dreve, 2020",
       },
       {
-        title: "Pod krídlami I., akryl, olej na lipovom dreve, 2020",
+        title: "Pod krídlami I.",
         filename: "pod_kridlami_1.jpg",
+        description: "akryl, olej na lipovom dreve, 2020",
       },
       {
-        title: "Pod krídlami IV., akryl, olej na lipovom dreve, 2020",
+        title: "Pod krídlami IV.",
         filename: "pod_kridlami_4.jpg",
+        description: " akryl, olej na lipovom dreve, 2020",
       },
       {
-        title: "Pod krídlami X., akryl, olej na lipovom dreve, 2020",
+        title: "Pod krídlami X.",
         filename: "pod_kridlami_10.jpg",
+        description: "akryl, olej na lipovom dreve, 2020",
       },
     ],
   },
@@ -181,28 +200,34 @@ export const seasons = ref([
       "Všetko čo zažívam, zanecháva odtlačok v mojej mysli, duši i srdci.",
     items: [
       {
-        title: "Anjel strážny ceruzka, pastel, zlatá fólia, 2020",
+        title: "Anjel strážny ",
         filename: "obdobie8d1.png",
+        description: "ceruzka, pastel, zlatá fólia, 2020",
       },
       {
-        title: "Splynutia ceruzka, pastel, zlatá fólia, 2021",
+        title: "Splynutia",
         filename: "obdobie8d2.png",
+        description: "ceruzka, pastel, zlatá fólia, 2021",
       },
       {
-        title: "Záhrada páva ceruzka, pastel, koláž, zlatá fólia, 2019",
+        title: "Záhrada páva",
         filename: "obdobie8d3.png",
+        description: "ceruzka, pastel, koláž, zlatá fólia, 2019",
       },
       {
-        title: "Snívanie nebíčka ceruzka, pastel, koláž, 2019",
+        title: "Snívanie nebíčka ",
         filename: "obdobie8d4.png",
+        description: "ceruzka, pastel, koláž, 2019",
       },
       {
-        title: "Modlitba za zdravie ceruzka, pastel, koláž, zlatá fólia, 2020",
+        title: "Modlitba za zdravie",
         filename: "obdobie8d5.png",
+        description: "ceruzka, pastel, koláž, zlatá fólia, 2020",
       },
       {
-        title: "Zámocké hry II. ceruzka, pastel, koláž, zlatá fólia, 2019",
+        title: "Zámocké hry II. ",
         filename: "obdobie8d6.png",
+        description: "ceruzka, pastel, koláž, zlatá fólia, 2019",
       },
     ],
   },

@@ -42,7 +42,7 @@ export const malba = ref([
     image: "cas_plynie/z_hlbky_duse.jpg",
   },
   {
-    title: "Odpúšťa",
+    title: "Odpúšťam",
     description: "akryl, olej na lipovom dreve",
     date: "2019",
     image: "novinky/odpusta.jpg",

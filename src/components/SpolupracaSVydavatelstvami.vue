@@ -10,7 +10,7 @@ function getImageUrl(name) {
     <h2 class="text-gray-500 text-xl font-medium mb-4">
       Spolupráca s vydavateľstvom IKAR
     </h2>
-    <div class="w-full my-6 h-32" v-for="item in spolupraca" :key="item">
+    <div class="w-full my-8 h-28" v-for="item in spolupraca" :key="item">
       <div class="flex">
         <img
           :src="getImageUrl(item.image)"
@@ -26,10 +26,10 @@ function getImageUrl(name) {
             target="_blank"
             class="border border-gray-500 py-1 px-5"
           >
-            <a href="https://www.luxusnakniznica.sk/sen-menom-laska" target="_blank" rel="nofollow noopener">
-            <button class="btn">
-              <span class="text-sm text-gray-500">viac</span>
-            </button>
+            <a :href="item.link" target="_blank" rel="nofollow noopener">
+              <button class="btn">
+                <span class="text-sm text-gray-500">viac</span>
+              </button>
             </a>
           </a>
         </div>

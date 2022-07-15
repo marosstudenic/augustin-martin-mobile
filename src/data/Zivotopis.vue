@@ -61,5 +61,9 @@ export const ocenenia = ref([
     date: "2017",
     text: "Diplom Ministerstva kultúry Slovenskej republiky, Najkrajšie knihy Slovenska, za ilustrácie ku knihe Texty v obrazoch, obrazy v textoch (IKAR)",
   },
+  {
+    date: "2022",
+    text: "Osobnosť Bratislavy, Diplom Ministerstva kultúry Slovenskej republiky, Najkrajšie knihy Slovenska 2021, za knihu Ľudovít Petránsky, Martin Augustín, Zrkadlo duše (Ikar)",
+  },
 ]);
 </script>

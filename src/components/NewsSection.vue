@@ -1,6 +1,7 @@
 <script setup>
 import { ref } from "vue";
-var info = ref(false);
+var openNews1 = ref(false);
+var openNews2 = ref(false);
 </script>
 
 <template>
@@ -8,7 +9,9 @@ var info = ref(false);
     <div class="flex justify-between mb-2">
       <h2 class="text-lg text-gray-500 font-medium">Novinky</h2>
       <div class="wrapper flex justify-end flex-col cursor-pointer">
-        <p class="text-sm text-gray-500" @click="info = !info">rozbaliť</p>
+        <p class="text-sm text-gray-500" @click="openNews1 = !openNews1">
+          rozbaliť
+        </p>
       </div>
     </div>
 
@@ -17,9 +20,10 @@ var info = ref(false);
         src="/src/assets/images/news/kamil-peteraj.jpg"
         alt="Novinky augustin martin"
         class="absolute top-0 left-0 h-full w-full object-cover"
+        @click="openNews1 = !openNews1"
       />
       <div
-        v-if="info"
+        v-if="openNews1"
         class="overlay absolute top-0 left-0 w-full h-full flex flex-col align-middle pt-16 px-10 bg-black bg-opacity-60"
       >
         <h2 class="text-center text-white font-bold text-2xl leading-6">
@@ -41,7 +45,55 @@ var info = ref(false);
         </p>
 
         <div class="flex justify-center">
-          <a href="https://www.luxusnakniznica.sk/sen-menom-laska" class="text-white border-white border py-0.5 px-2 mt-5" target="_blank" rel="noopener nofollow"
+          <a
+            href="https://www.luxusnakniznica.sk/sen-menom-laska"
+            class="text-white border-white border py-0.5 px-2 mt-5"
+            target="_blank"
+            rel="noopener nofollow"
+            >viac
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="wrapper flex justify-end cursor-pointer mt-10 pb-2">
+      <p class="text-sm text-gray-500" @click="openNews2 = !openNews2">
+        rozbaliť
+      </p>
+    </div>
+
+    <div class="wrapper w-full relative h-96">
+      <img
+        src="/src/assets/images/produkty/obalka_knihy_maj.jpg"
+        alt="Novinky augustin martin"
+        class="absolute top-0 left-0 h-full w-full object-cover"
+        @click="openNews2 = !openNews2"
+      />
+
+      <img
+        src="/src/assets/images/produkty/maj_priloha.png"
+        alt="Novinky augustin martin"
+        class="absolute top-0 left-0 h-full w-full object-cover animation"
+        @click="openNews2 = !openNews2"
+      />
+
+      <div
+        v-if="openNews2"
+        class="overlay absolute top-0 left-0 w-full h-full flex flex-col align-middle pt-16 px-10 bg-black bg-opacity-60"
+      >
+        <h2 class="text-center text-white font-bold text-2xl leading-6">MÁJ</h2>
+        <h4 class="text-center text-white font-medium">Karel Hynek Mácha</h4>
+
+        <p class="text-center text-white my-3">
+          limitovaná edícia dostupná v Českej republike
+        </p>
+
+        <div class="flex justify-center">
+          <a
+            href="https://www.luxusnakniznica.sk/maj"
+            class="text-white border-white border py-0.5 px-2 mt-5"
+            target="_blank"
+            rel="noopener nofollow"
             >viac
           </a>
         </div>
@@ -50,4 +102,29 @@ var info = ref(false);
   </section>
 </template>
 
-<style scoped></style>
+<style scoped>
+.animation {
+  animation-name: widthAnimation;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes widthAnimation {
+  0% {
+    width: 0;
+  }
+  10% {
+    width: 100%;
+  }
+  50% {
+    width: 100%;
+  }
+  60% {
+    width: 0;
+  }
+  100% {
+    width: 0;
+  }
+}
+</style>

@@ -158,14 +158,26 @@ export const samostatne_vystavy = ref([
   },
   {
     date: "2020",
-    locations: ["Výstava Ateliér duše, M Locus Arte, Žilina"],
+    locations: [
+      "Výstava Ateliér duše",
+      "M Locus Arte, Žilina",
+      "výstavy Marika Dudášová",
+    ],
   },
   {
     date: "2021",
     locations: [
-      "Tajomstvá ateliéru, Galéria Bořek Šípek, Dessewffyho palác, Bratislava, kurátor výstavy, Carmen Kováčová",
-      "Letné ateléry, Andrej a Martin Augustínovci, Magna Gallery, Piešťany",
+      "Tajomstvá ateliéru Martina Augustína, Galéria Bořek Šípek, Dessewffyho palác, Bratislava, koncepcia výstavy Carmen Kováčová",
+      "Letné ateléry Andreja a Martina Augustínovcov, Magna Gallery Piešťany",
       "Galéria v Podkroví, Štátna vedecká knižnica, Banská Bystrica – spolu s Andrejom Augustínom, kurátor výstavy Ľudovít Petránsky",
+      "Hľadači snov, Štátna vedecká knižnica, Galéria v Podkroví, Banská Bystrica, koncepcia výstavy Ľudovít Petránsky",
+    ],
+  },
+  {
+    date: "2022",
+    locations: [
+      " Spiegel der Seele, Slovenský inštitút v Berlíne, koncepcia výstavy Carmen Kováčová",
+      "Le Roman, Slovenský inštitút v Ríme, koncepcia výstavy Carmen Kováčová\n",
     ],
   },
 ]);
@@ -290,6 +302,12 @@ export const spolocne_vystavy = ref([
     date: "2015",
     locations: [
       "Dialogues – Dialógy, Paris Bratislava, Cité Internationale des Arts, Paríž",
+    ],
+  },
+  {
+    date: "2022",
+    locations: [
+      " Tiene a farby, Božena, Andrej, Martin Augustínovci, Zoya Gallery, koncepcia výstavy Ľudovít Petránsky, Iveta Ledecká\n",
     ],
   },
 ]);

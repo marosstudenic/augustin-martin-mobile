@@ -1,5 +1,6 @@
 <script>
 import { ref } from "vue";
+
 export var products = ref({
   publikacie: {
     title: "Publikácie",
@@ -25,6 +26,15 @@ export var products = ref({
           "39€ + poštovné",
         ],
       },
+      {
+        title: "Máj",
+        author: "Hynek Karel Mácha",
+        image: "produkty/obalka_knihy_maj.jpg",
+        descriptions: [
+          "22,54€ + poštovné",
+          "Dostupné cez <a href='https://www.martinus.sk/?uItem=1548731&gclid=CjwKCAjw2f-VBhAsEiwAO4lNeCilwRS-' class='text-gray-600 cursor-pointer hover:text-gray-900 underline'>martinus.sk</a>",
+        ],
+      },
     ],
   },
   textilie: {
@@ -34,6 +44,7 @@ export var products = ref({
       {
         title: "Hodvábna šatka s motívom obrazu Martina Augustína",
         image: "produkty/hodvabnaSatka_detail.jpg",
+        altImage: "produkty/hodvabnaSatkaObraz.jpg",
         descriptions: ["90 x 90 cm", "90€ + poštovné"],
       },
     ],
@@ -46,18 +57,20 @@ export var products = ref({
         title: "Slnko nad hlavou",
         image: "produkty/grafList_slnkoNadHlavou.jpg",
         descriptions: [
-          "technika ofset",
+          "technika limitovaný ofset",
           "náklad 200 ks, 70 x 50 cm",
           "200€ + poštovné",
+          "signovaný autormi Martinom Augustínom, Kamilom Peterajom\n",
         ],
       },
       {
         title: "Raz uvidíš",
         image: "produkty/grafList_razUvidis.jpg",
         descriptions: [
-          "technika ofset",
+          "technika limitovaný ofset",
           "náklad 200 ks, 70 x 50 cm",
           "200€ + poštovné",
+          "signovaný autormi Martinom Augustínom, Kamilom Peterajom\n",
         ],
       },
     ],
@@ -74,6 +87,7 @@ export var products = ref({
           "hodvábna šatka s dielom M. Augustína",
           "certifikát vlastníctva",
           "300€ + poštovné",
+          "nedostupné",
         ],
       },
     ],

@@ -1,7 +1,7 @@
 <template>
   <section id="welcome-image">
     <img
-      src="../assets/images/welcome-images/m.augustin_22 _097w.jpg"
+      src="../assets/images/welcome-images/m.augustin_22_097w.jpg"
       alt="obraz cervene_zahrady"
       class="w-screeen h-[calc(100vh-4rem)] object-cover"
     />

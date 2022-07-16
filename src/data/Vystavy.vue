@@ -20,7 +20,7 @@ export const samostatne_vystavy = ref([
   {
     date: "1993",
     locations: [
-      "Svetlo, tiene, tma, Štúdio Lasica § Satinský, Bratislava, koncepcia výstavy Bohumír Bachratý, pod záštitou pani Magdy Vášáryovej, spolu s Andrejom Augustínom a Marekom Ormandíkom",
+      "Svetlo, tiene, tma, Štúdio Lasica & Satinský, Bratislava, koncepcia výstavy Bohumír Bachratý, pod záštitou pani Magdy Vášáryovej, spolu s Andrejom Augustínom a Marekom Ormandíkom",
     ],
   },
   {
@@ -247,7 +247,7 @@ export const spolocne_vystavy = ref([
     date: "2006",
     locations: [
       "Na husličkách maľované: Reduta, Slovenská filharmónia, Bratislava - Incheba, Bratislava - Štátna filharmónia Košice",
-      "Slnko, slnečníky, slnečnice, Štúdio Lasica § Satinský, Bratislava, kurátor výstavy Bohumír Bachratý",
+      "Slnko, slnečníky, slnečnice, Štúdio Lasica & Satinský, Bratislava, kurátor výstavy Bohumír Bachratý",
       "Art for Life, KBC Toren, zaal Scaldis, Schoenmarkt, Antverpy, Belgicko",
       "Súčasné slovenské umenie, Plastika, kresba, Galerie Lehalle, Paríž",
     ],

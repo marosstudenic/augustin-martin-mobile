@@ -21,7 +21,7 @@ import { studium, ocenenia } from "../data/Zivotopis.vue";
     <h2 class="text-gray-500 font-medium text-xl mt-10">Ocenenia</h2>
     <div class="item my-2" v-for="(item, index) in ocenenia" :key="index">
       <h3 class="text-gray-500 font-medium">{{ item.date }}</h3>
-      <p class="text-gray-500 text-sm">{{ item.text }}</p>
+      <p class="text-gray-500 text-sm" v-for="(text, index) in item.text" :key="index">{{ text }}</p>
     </div>
   </section>
 </template>

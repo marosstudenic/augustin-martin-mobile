@@ -42,7 +42,7 @@ export const spolupraca = ref([
     authors: "Karel Hynek Mácha",
     vydavatelstvo: "Vydavateľstvo IKAR",
     image: "produkty/obalka_knihy_maj.jpg",
-    link: "https://www.luxusnakniznica.sk/maj",
+    link: "https://www.rosier.cz/",
   },
 ]);
 </script>

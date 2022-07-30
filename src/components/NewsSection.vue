@@ -90,7 +90,7 @@ var openNews2 = ref(false);
 
         <div class="flex justify-center">
           <a
-            href="https://www.luxusnakniznica.sk/maj"
+            href="https://www.rosier.cz"
             class="text-white border-white border py-0.5 px-2 mt-5"
             target="_blank"
             rel="noopener nofollow"

@@ -130,7 +130,7 @@ var openNews3 = ref(false);
         </h4>
 
         <p class="text-center text-white my-3 leading-5">
-          Jediná původní básnická sbírka, kterou Erben vydal
+          Jediná pôvodná básnická zbierka, ktorú Erben vydal
         </p>
 
         <p class="text-center text-white text-sm">
@@ -139,7 +139,7 @@ var openNews3 = ref(false);
 
         <div class="flex justify-center">
           <a
-            href="http://localhost:3000/produkt/publikacie/0"
+            href="/produkt/publikacie/0"
             class="text-white border-white border py-0.5 px-2 mt-5"
             rel="noopener nofollow"
             >viac

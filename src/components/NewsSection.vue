@@ -138,12 +138,17 @@ var openNews3 = ref(false);
         </p>
 
         <div class="flex justify-center">
-          <a
+          <router-link
+            to="/produkt/publikacie/0"
+            class="text-white border-white border py-0.5 px-2 mt-5"
+            >viac
+          </router-link>
+          <!-- <a
             href="/produkt/publikacie/0"
             class="text-white border-white border py-0.5 px-2 mt-5"
             rel="noopener nofollow"
             >viac
-          </a>
+          </a> -->
         </div>
       </div>
     </div>

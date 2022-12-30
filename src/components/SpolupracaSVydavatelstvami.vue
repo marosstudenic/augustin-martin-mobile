@@ -23,10 +23,9 @@ function getImageUrl(name) {
           <p class="text-gray-500 text-sm mb-2">{{ item.vydavatelstvo }}</p>
           <a
             :href="item.link"
-            target="_blank"
             class="border border-gray-500 py-1 px-5"
           >
-            <a :href="item.link" target="_blank" rel="nofollow noopener">
+            <a :href="item.link" rel="nofollow noopener">
               <button class="btn">
                 <span class="text-sm text-gray-500">viac</span>
               </button>

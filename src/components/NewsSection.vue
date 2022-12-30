@@ -2,6 +2,7 @@
 import { ref } from "vue";
 var openNews1 = ref(false);
 var openNews2 = ref(false);
+var openNews3 = ref(false);
 </script>
 
 <template>
@@ -15,6 +16,7 @@ var openNews2 = ref(false);
       </div>
     </div>
 
+    <!--  SEN MENOM LÁSKA -->
     <div class="wrapper w-full relative h-96">
       <img
         src="/src/assets/images/news/kamil-peteraj.jpg"
@@ -56,6 +58,7 @@ var openNews2 = ref(false);
       </div>
     </div>
 
+    <!--  MAJ -->
     <div class="wrapper flex justify-end cursor-pointer mt-10 pb-2">
       <p class="text-sm text-gray-500" @click="openNews2 = !openNews2">
         rozbaliť
@@ -99,6 +102,52 @@ var openNews2 = ref(false);
         </div>
       </div>
     </div>
+
+    <!-- KYTICE  -->
+    <div class="wrapper flex justify-end cursor-pointer mt-10 pb-2">
+      <p class="text-sm text-gray-500" @click="openNews3 = !openNews3">
+        rozbaliť
+      </p>
+    </div>
+
+
+    <div class="wrapper w-full relative h-96">
+      <img
+        src="/src/assets/images/produkty/kytice.jpg"
+        alt="Novinky augustin martin"
+        class="absolute top-0 left-0 h-full w-full object-cover"
+        @click="openNews3 = !openNews3"
+      />
+      <div
+        v-if="openNews3"
+        class="overlay absolute top-0 left-0 w-full h-full flex flex-col align-middle pt-16 px-10 bg-black bg-opacity-60"
+      >
+        <h2 class="text-center text-white font-bold text-2xl leading-6">
+          KYTICE
+        </h2>
+        <h4 class="text-center text-white text-sm">
+          Karel Jaromír Erben
+        </h4>
+
+        <p class="text-center text-white my-3 leading-5">
+          Jediná původní básnická sbírka, kterou Erben vydal
+        </p>
+
+        <p class="text-center text-white text-sm">
+          Jedinečné limitované vydanie
+        </p>
+
+        <div class="flex justify-center">
+          <a
+            href="http://localhost:3000/produkt/publikacie/0"
+            class="text-white border-white border py-0.5 px-2 mt-5"
+            rel="noopener nofollow"
+            >viac
+          </a>
+        </div>
+      </div>
+    </div>
+
   </section>
 </template>
 

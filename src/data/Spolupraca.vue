@@ -44,5 +44,12 @@ export const spolupraca = ref([
     image: "produkty/obalka_knihy_maj.jpg",
     link: "https://www.rosier.cz/",
   },
+  {
+    title: "KYTICE",
+    authors: "Karel Jaromrír Erben",
+    vydavatelstvo: "Vydavateľstvo IKAR",
+    image: "produkty/kytice.jpg",
+    link: "/produkt/publikacie/0",
+  },
 ]);
 </script>

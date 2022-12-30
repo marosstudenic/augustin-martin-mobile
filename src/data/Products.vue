@@ -6,6 +6,18 @@ export var products = ref({
     title: "Publikácie",
     slug: "publikacie",
     items: [
+    {
+        title: "KYTICE",
+        author: "KAREL JAROMÍR ERBEN",
+        image: "produkty/kytice.jpg",  
+        descriptions: [
+            "litografia",
+            "23 × 23 cm, 252 stran",
+            "290 €",
+            "Dostupné cez <a target='_blank' href='https://www.luxusnakniznica.sk/kytice' class='text-gray-600 cursor-pointer hover:text-gray-900 underline'>luxusnakniznica.sk/kytice</a> (SK)",
+            "Dostupné cez <a target='_blank' href='https://www.rosier.cz/' class='text-gray-600 cursor-pointer hover:text-gray-900 underline'>rosier.cz</a> (CZ)",
+        ]
+      },
       {
         title: "Obrazy, texty, sentencie",
         image: "spoluprace/brozovanaPublikacia_obrazyTextySentencie.jpg",
@@ -35,6 +47,7 @@ export var products = ref({
           "Dostupné cez <a href='https://www.martinus.sk/?uItem=1548731&gclid=CjwKCAjw2f-VBhAsEiwAO4lNeCilwRS-' class='text-gray-600 cursor-pointer hover:text-gray-900 underline'>martinus.sk</a>",
         ],
       },
+      
     ],
   },
   textilie: {

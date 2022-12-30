@@ -22,6 +22,7 @@ export const spolupraca = ref([
     vydavatelstvo: "Vydavateľstvo IKAR",
     image: "spoluprace/stale_ta_mat.jpg",
     link: "https://www.luxusnakniznica.sk/le/stale-ta-mat/index.html",
+    local: false,
   },
   {
     title: "Zrkadielka ku knihe Stále ťa mať",
@@ -29,6 +30,7 @@ export const spolupraca = ref([
     vydavatelstvo: "Vydavateľstvo IKAR",
     image: "spoluprace/zrkadielka_ku_knihe.jpg",
     link: "https://www.luxusnakniznica.sk/le/stale-ta-mat/index.html",
+    local: false,
   },
   {
     title: "Zrkadlo duše, monografia",
@@ -36,6 +38,7 @@ export const spolupraca = ref([
     vydavatelstvo: "Vydavateľstvo IKAR",
     image: "spoluprace/zrkadlo_duse.jpg",
     link: "https://www.luxusnakniznica.sk/knihy/martin-augustin-zrkadlo-duse",
+    local: false,
   },
   {
     title: "Máj",
@@ -43,6 +46,7 @@ export const spolupraca = ref([
     vydavatelstvo: "Vydavateľstvo IKAR",
     image: "produkty/obalka_knihy_maj.jpg",
     link: "https://www.rosier.cz/",
+    local:false
   },
   {
     title: "KYTICE",
@@ -50,6 +54,7 @@ export const spolupraca = ref([
     vydavatelstvo: "Vydavateľstvo IKAR",
     image: "produkty/kytice.jpg",
     link: "/produkt/publikacie/0",
+    local: true,
   },
 ]);
 </script>

@@ -21,11 +21,23 @@ function getImageUrl(name) {
           <h2 class="text-md font-medium">{{ item.title }}</h2>
           <p class="text-gray-500 text-sm my-1">{{ item.authors }}</p>
           <p class="text-gray-500 text-sm mb-2">{{ item.vydavatelstvo }}</p>
+          <router-link
+            :to="item.link"
+            v-if="item.local === true"
+            class="border border-gray-500 py-1 px-5"
+          >
+            <button class="btn">
+              <span class="text-sm text-gray-500">viac</span>
+            </button>
+          </router-link>
+
           <a
             :href="item.link"
             class="border border-gray-500 py-1 px-5"
+            target="_blank"
+            v-if="item.local === false"
           >
-            <a :href="item.link" rel="nofollow noopener">
+            <a :href="item.link" rel="nofollow noopener" target="_blank">
               <button class="btn">
                 <span class="text-sm text-gray-500">viac</span>
               </button>

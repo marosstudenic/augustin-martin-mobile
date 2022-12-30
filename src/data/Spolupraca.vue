@@ -46,7 +46,7 @@ export const spolupraca = ref([
   },
   {
     title: "KYTICE",
-    authors: "Karel Jaromrír Erben",
+    authors: "Karel Jaromír Erben",
     vydavatelstvo: "Vydavateľstvo IKAR",
     image: "produkty/kytice.jpg",
     link: "/produkt/publikacie/0",

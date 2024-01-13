@@ -15,7 +15,7 @@ import Kontakt from "../components/Kontakt.vue";
 
 <template>
   <main class="font-neue">
-    <WelcomeImage />
+    <!-- <WelcomeImage />
     <WelcomeText />
     <NewSection />
     <Products />
@@ -26,6 +26,6 @@ import Kontakt from "../components/Kontakt.vue";
     <SpolupracaSVydavatelstvami />
     <VideoSection />
     <Gallery />
-    <Kontakt />
+    <Kontakt /> -->
   </main>
 </template>
